@@ -1,5 +1,3 @@
-import LogoImg from "./style";
-
 
 export default function Logo({ fillColor, width, height, ...props }){
     return(
