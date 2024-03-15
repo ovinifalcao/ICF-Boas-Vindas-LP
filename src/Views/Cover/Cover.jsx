@@ -7,7 +7,7 @@ export default function Cover() {
     return (
         <CoverBaseDiv>
             <CoverHead>
-                <Logo fillColor={"#fff"} width={"20vw"}/>
+                <Logo fillColor={"#fff"} width={"18vw"}/>
                 <CoverTitle> Nós somos a Família Capão</CoverTitle>
             </CoverHead>
             <ArrowDownBlock/>

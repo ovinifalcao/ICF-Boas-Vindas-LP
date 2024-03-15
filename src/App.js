@@ -1,4 +1,5 @@
 import Cover from "./Views/Cover/Cover";
+import JoinUs from "./Views/JoinUs/JoinUs";
 import WellcomeVideo from "./Views/WellcomeVideo/WellcomeVideo";
 import { LandingBlock } from "./sytle";
 
@@ -9,6 +10,7 @@ function App() {
       <LandingBlock>
         <section> <Cover/> </section>
         <section><WellcomeVideo/> </section>
+        <section><JoinUs/> </section>
       </LandingBlock>
     </div>
   );
