@@ -1,10 +1,15 @@
 import Cover from "./Views/Cover/Cover";
+import WellcomeVideo from "./Views/WellcomeVideo/WellcomeVideo";
+import { LandingBlock } from "./sytle";
 
 
 function App() {
   return (
     <div className="App">
-      <Cover/>
+      <LandingBlock>
+        <section> <Cover/> </section>
+        <section><WellcomeVideo/> </section>
+      </LandingBlock>
     </div>
   );
 }

@@ -1,12 +1,16 @@
-import { CoverTitle, CoverBaseDiv } from "./style"
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ArrowDownBlock from "../../Components/ArrowDown/ArrowDown";
+import Logo from "../../Components/logoICF/logo";
+import { CoverTitle, CoverBaseDiv, CoverHead } from "./style"
 
 export default function Cover() {
 
     return (
         <CoverBaseDiv>
-            <CoverTitle> Nós Somos a Família Capão</CoverTitle>
-            <ExpandMoreIcon fontSize="large"/>
+            <CoverHead>
+                <Logo fillColor={"#fff"} width={"20vw"}/>
+                <CoverTitle> Nós somos a Família Capão</CoverTitle>
+            </CoverHead>
+            <ArrowDownBlock/>
         </CoverBaseDiv>
     )
 }
