@@ -1,3 +1,4 @@
+import ContactUs from "./Views/ContactUs/ContactUs";
 import Cover from "./Views/Cover/Cover";
 import JoinUs from "./Views/JoinUs/JoinUs";
 import WellcomeVideo from "./Views/WellcomeVideo/WellcomeVideo";
@@ -11,6 +12,7 @@ function App() {
         <section> <Cover/> </section>
         <section><WellcomeVideo/> </section>
         <section><JoinUs/> </section>
+        <section><ContactUs/> </section>
       </LandingBlock>
     </div>
   );
