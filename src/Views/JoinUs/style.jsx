@@ -5,7 +5,6 @@ export const JoinUsBaseDiv = styled.div`
     color: #DCFFDF;
     min-height: 100vh;
     max-width: 100vw;
-    max-height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -13,6 +12,7 @@ export const JoinUsBaseDiv = styled.div`
     color:#dcffdf;
     padding: 4vh 4vw 0 4vw;
     scroll-snap-align: start;
+    position: relative;
 
     .align-right{
         align-self: end;
@@ -23,8 +23,10 @@ export const JoinUsTitle = styled.h2`
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 2.5em;
-    padding: 0 20vw 0 0;
+    padding: 6vh 20vw 0 0;
     margin: 0;
+    z-index: 1;
+    line-height: 0.8em;
 `
 
 export const FamiliesDescriptionParagraph = styled.p`
@@ -42,4 +44,10 @@ export const FamiliesAdressesList = styled.ul`
     margin: 2vh 0;
     padding: 0;
     gap: 2vh;
+`
+
+export const FamiliesDecorativeImg = styled.img`
+    position: absolute;
+    left: 0;
+    top: 0;
 `

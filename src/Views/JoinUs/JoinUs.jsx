@@ -1,11 +1,12 @@
 import ArrowDownBlock from "../../Components/ArrowDown/ArrowDown"
 import FamiliesAddress from "../../Components/FamiliesAddress/FamiliesAddress"
 import Logo from "../../Components/logoICF/logo"
-import { FamiliesAdressesList, FamiliesDescriptionParagraph, JoinUsBaseDiv, JoinUsTitle } from "./style"
+import { FamiliesAdressesList, FamiliesDecorativeImg, FamiliesDescriptionParagraph, JoinUsBaseDiv, JoinUsTitle } from "./style"
 
 export default function JoinUs(){
     return(
         <JoinUsBaseDiv>
+            <FamiliesDecorativeImg src="https://icfcapao.com.br/img/join_01.png" alt="Irmãos servindo a santa ceia"/>    
             <Logo className="align-right" fillColor={"#bc7145"} width={"15vw"}/>
             <JoinUsTitle>Como fazer parte da Família</JoinUsTitle>
             <FamiliesDescriptionParagraph>
@@ -17,7 +18,7 @@ export default function JoinUs(){
                 <li><FamiliesAddress/> </li>   
                 <li><FamiliesAddress/> </li>   
             </FamiliesAdressesList>  
-            <ArrowDownBlock/>      
+            <ArrowDownBlock/>  
         </JoinUsBaseDiv>
     )
 }

@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const CoverBaseDiv = styled.div`
     background-color: #1f8874;
+    background-image: url(${props => props.bgUrl});
     color: #ffffff;
     min-width: 100vw;
     min-height: 94vh;

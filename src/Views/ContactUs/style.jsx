@@ -15,6 +15,7 @@ export const ContactUsBaseDiv = styled.div`
     padding: 4vh 4vw 0 4vw;
     scroll-snap-align: start;
     justify-content: space-between;
+    position: relative;
 
     .align-right{
         align-self: end;
@@ -33,4 +34,12 @@ export const ContactUsTitle = styled.h2`
     font-size: 3em;
     text-align: right;
     line-height: 0.9;
+    padding-top: 4vh;
+    z-index:0;
+`
+
+export const ContactUsDecorativeImg = styled.img`
+    position: absolute;
+    left: 0;
+    top: 0;
 `

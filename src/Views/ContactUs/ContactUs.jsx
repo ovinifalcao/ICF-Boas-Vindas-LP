@@ -1,12 +1,13 @@
 import ArrowDownBlock from "../../Components/ArrowDown/ArrowDown";
 import ContactButton from "../../Components/ContactButton/ContactButton";
 import Logo from "../../Components/logoICF/logo";
-import { ContactGroupDiv, ContactUsBaseDiv, ContactUsTitle } from "./style";
+import { ContactGroupDiv, ContactUsBaseDiv, ContactUsDecorativeImg, ContactUsTitle } from "./style";
 
 export default function ContactUs(){
     return(
         <>
             <ContactUsBaseDiv>
+                <ContactUsDecorativeImg src="https://icfcapao.com.br/img/contact_01.png" alt="Mininstério de dança se apresentando"/>
                 <Logo className="align-right" fillColor={"#d6d6d6"} width={"15vw"}/>
                 <ContactUsTitle className="align-right">Quer falar com a gente?</ContactUsTitle>
                 <ContactGroupDiv>

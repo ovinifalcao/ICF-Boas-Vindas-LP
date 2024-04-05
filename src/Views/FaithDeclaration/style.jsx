@@ -8,21 +8,24 @@ export const FaithDeclarationMainDiv = styled.div`
     max-width: 100vw;
     display: flex;
     flex-direction: column;
-    padding: 4vh 4vw 0 4vw;
     scroll-snap-align: start;
-    gap: 2vh;
+    /* gap: 2vh; */
+    padding-top: 4vh;
 
     .align-right{
         align-self: end;
+        padding-right: 4vh;
     }
+
 `
 
 export const FaithDeclarationTitle = styled.h3`
     font-family: 'Roboto';
     font-size: 2.5em;
     font-weight: 500;
-    padding: 0;
+    padding: 0 4vw 0 4vw;;
     margin: 0;
+    
 `
 
 export const FaithDeclarationGroupDiv = styled.div`
@@ -30,18 +33,34 @@ export const FaithDeclarationGroupDiv = styled.div`
     flex-direction: column;
     gap: 1.5vh;
 
-    .rightBoxes{
-        padding-left: 20vh;
-    }
-
-    .leftBoxes{
-        padding-right: 20vh;
-    }
 `
 
 export const StatementsSpan = styled.span`
 
 `
+export const StatementsSpanRight = styled.span`
+    display:flex;
+    flex-direction: row;
+    padding-right: 4vw;
+    margin-top: 2vh;
+    gap: 4vw;
+`
+
+export const StatementsSpanCenter = styled.span`
+    display:flex;
+    flex-direction: row;
+    padding: 0 4vw 0 4vw;
+    margin-top: 2vh;
+    gap: 4vw;
+`
+export const StatementsSpanLeft = styled.span`
+    display:flex;
+    flex-direction: row;
+    padding-left: 4vw;
+    margin-top: 2vh;
+    gap: 4vw;
+`
+
 
 export const StatementsTitles = styled.h4`
     font-family: 'Roboto';
@@ -57,4 +76,12 @@ export const StatementsDescription = styled.p`
     padding: 0;
     margin: 0;
     text-align: justify;
+`
+
+export const StatementsDecorativeImgTop = styled.img`
+    opacity: 0.60;
+`
+
+export const StatementsDecorativeImgBottom = styled.img`
+
 `
