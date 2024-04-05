@@ -4,7 +4,6 @@ import Mail  from "./Icons/Mail";
 import Instagram  from "./Icons/Instagram";
 import Youtube  from "./Icons/Youtube";
 import Tiktok  from "./Icons/Tiktok";
-import { linkClasses } from "@mui/material";
 import { Place } from "@mui/icons-material";
 
 
