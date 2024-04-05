@@ -1,15 +1,16 @@
 import { FamiliesAdressBaseDiv, FamiliesDescriptionBox, FamilyName, FamilyInfo, FamilyReponsible } from "./styled";
 import FamiliesLogo from "../../Components/FamiliesLogo/FamiliesLogo";
 
-export default function FamiliesAddress(){
+export default function FamiliesAddress({family}){
+
     return(
         <FamiliesAdressBaseDiv>
             <FamiliesLogo width={"10vw"} fill={"#DCFFDF"} />
             <FamiliesDescriptionBox>
-                <FamilyName> Pequena Família Dom José </FamilyName>
-                <FamilyInfo> R. Anum Preto, 505 </FamilyInfo>
-                <FamilyInfo> Quintas-Feiras  |  Às 20:30 </FamilyInfo>
-                <FamilyReponsible> <b>Responsáveis:</b> Maria Joana & Marcio Gabriel Marcelo & Cláudia Solar </FamilyReponsible>
+                <FamilyName> {family.name} </FamilyName>
+                <FamilyInfo> {family.address} </FamilyInfo>
+                <FamilyInfo> {family.desc} </FamilyInfo>
+                <FamilyReponsible> <b>Responsáveis:</b> {family.owners} </FamilyReponsible>
             </FamiliesDescriptionBox>
         </FamiliesAdressBaseDiv>
     )

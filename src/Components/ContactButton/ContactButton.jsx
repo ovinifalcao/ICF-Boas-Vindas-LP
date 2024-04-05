@@ -5,6 +5,7 @@ import Instagram  from "./Icons/Instagram";
 import Youtube  from "./Icons/Youtube";
 import Tiktok  from "./Icons/Tiktok";
 import { linkClasses } from "@mui/material";
+import { Place } from "@mui/icons-material";
 
 
 function ButtonIconChooser(contactName) {
@@ -19,6 +20,8 @@ function ButtonIconChooser(contactName) {
             return <Youtube width={"1.5em"}/>
         case "TikTok":
             return <Tiktok width={"1.5em"}/>
+        case "Place":
+                return <Place width={"1.5em"}/>
         default :
             return <> ? </>
     }
