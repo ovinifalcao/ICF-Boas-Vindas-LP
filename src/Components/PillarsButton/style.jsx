@@ -40,4 +40,6 @@ export const PillarsButtonTitleSpan = styled.span`
 `
 
 export const PillarsDescParagraph = styled.p`
+    text-align: justify;
+    transition: all  0.8s linear;
 `

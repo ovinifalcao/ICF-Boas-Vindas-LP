@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const ContactUsBaseDiv = styled.div`
     background-color: #292929;
     color: #ffffff;
-    min-height: 95vh;
+    min-height: 100vh;
     max-width: 100vw;
     max-height: 95vh;
     display: flex;

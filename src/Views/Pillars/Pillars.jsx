@@ -1,6 +1,7 @@
 import Logo from "../../Components/logoICF/logo";
 import { PillarsCollapsableButtonDiv, PillarsFooterImg, PillarsHeaderDiv, PillarsHeaderImg, PillarsHeaderTitle, PillarsMainDiv } from "./style";
 import PillarsButton from "../../Components/PillarsButton/PillarsButton";
+import { PillarsDescription } from "./PillarsDescription";
 
 
 
@@ -15,10 +16,10 @@ export default function Pillars(){
                 </PillarsHeaderDiv>
 
                 <PillarsCollapsableButtonDiv>
-                    <PillarsButton btnTitle={"Família"} content={"Loren Ipsum"}/>
-                    <PillarsButton btnTitle={"Formação"} content={"Loren Ipsum"}/>
-                    <PillarsButton btnTitle={"Missões"} content={"Loren Ipsum"}/>
-                    <PillarsButton btnTitle={"Transformação"} content={"Loren Ipsum"}/>
+                    <PillarsButton btnTitle={"Família"} content={PillarsDescription.familia}/>
+                    <PillarsButton btnTitle={"Formação"} content={PillarsDescription.formacao}/>
+                    <PillarsButton btnTitle={"Missões"} content={PillarsDescription.missao}/>
+                    <PillarsButton btnTitle={"Transformação"} content={PillarsDescription.transformacao}/>
                 </PillarsCollapsableButtonDiv>
 
                 <PillarsFooterImg src="https://icfcapao.com.br/img/pillars_02.png"></PillarsFooterImg>

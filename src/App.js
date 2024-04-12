@@ -9,6 +9,7 @@ import Signature from "./Views/Signture/Signature";
 import WellcomeVideo from "./Views/WellcomeVideo/WellcomeVideo";
 import Desktop from "./Views/Desktop/desktop";
 import { LandingBlock } from "./sytle";
+import VisiteYou from "./Views/VisiteYou/VisiteYou";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <section><WellcomeVideo/> </section>
           <section><JoinUs/> </section>
           <section><ContactUs/> </section>
+          <section><VisiteYou/> </section>
           <section><Calendar/> </section>
           <section><FaithDeclaration/> </section>
           <section><Pillars/> </section>

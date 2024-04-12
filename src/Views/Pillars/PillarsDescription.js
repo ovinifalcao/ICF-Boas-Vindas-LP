@@ -1,0 +1,7 @@
+
+export const PillarsDescription = {
+    familia: "Em família amamos a Deus, crescemos na comunhão com Ele, e amamos e servimos ao próximo. Nossos cultos, reuniões e eventos, são a porta de entrada para qualquer pessoa que queira conhecer a Deus e seu amor através do aconchego e comunhão da Família de Deus. Nesse pilar nossa ênfase é 'ser família' e receber com amor a todos os que se achegam a nós. Lucas 10:27"
+    ,formacao: "Uma vez na Família de Deus, o próximo passo é oferecer orientação, instrução e formação através do conhecimento da Palavra e da prática do discipulado. Educando, levamos o povo à maturidade, à imagem de Jesus. Nesse pilar nossa ênfase é 'instruir cada pessoa estimulando seu crescimento em obediência e discipulado, a fim de torná-la semelhante a Jesus em pensamento, sentimento e ação'. Efésios 4:12 e 13"
+    ,missao: "Tendo sido instruído e treinado, o cristão precisa cumprir a ordem de Jesus de ir e falar para o mundo a mensagem da salvação. Neste pilar a ênfase está em 'sair (ir) para comunicar da Palavra de Deus por todo o mundo', pois cremos que cada membro da família de Deus é chamado para a evangelização. Marcos 16:15"
+    ,transformacao: "Uma vez enviado ao mundo para a evangelização, o cristão deverá transformar a sociedade testemunhando do amor de Deus através de seu serviço ao suprir as necessidades do próximo com qualidade, eficácia e caráter diferenciado. Neste pilar, a nossa marca é 'buscar a transformação da sociedade atendendo suas necessidades através do serviço'. Mateus 5:16"
+}
