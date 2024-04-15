@@ -16,7 +16,7 @@ export default function WellcomeVideo(){
 
             <WellcomeVideoContent>
                 <iframe width="333" height="592"
-                src="https://www.youtube.com/embed/mMAD1Nd_3I0"
+                src="https://www.youtube.com/embed/xRl3Ypsd7Xs"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
